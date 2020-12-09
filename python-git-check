@@ -1,1 +1,2 @@
 print('testuje commitowanie na strone github')
+print("druga wersja")
