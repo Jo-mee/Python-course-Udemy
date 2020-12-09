@@ -1,5 +1,5 @@
 print('hello world')
-print('mamia2')
+print('moamia2')
 #input('press enter to continue...')
 
 print('           /^\/^\\')
