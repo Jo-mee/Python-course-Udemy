@@ -7,6 +7,7 @@ isRainy = True # True oznacza, że pada deszcz, jest mgła lub mamy do czynienia
 
 turnLightsOn = isAutomaticMode and (not is80PercentLight or isDirectLight or isRainy)
 
+
 print("Automatic mode:   ",isAutomaticMode)
 print("Is the light good:",is80PercentLight)
 print("Is sun low:       ",isDirectLight)
