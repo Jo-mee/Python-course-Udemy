@@ -33,3 +33,26 @@ print(4**5/2**3)
 #9 +- * /
 
 print(9/9+99)
+# string jako tablica znaków
+
+q = 'THE EYES'
+print(q[0],q[1],q[2],q[5],q[3],q[7],q[4],q[6])
+print(q[0]+q[1]+q[2]+q[5]+q[3]+q[7]+q[4]+q[6])
+
+
+q = "a gentleman"
+print(q[3]+q[6]+q[7]+q[2]+q[0]+q[4]+q[5]+q[1]+q[8])
+
+line = 'Program "Kropka nad i" nadamy o: 22:00'
+time = line[line.find(":")+2:]
+print(time)
+tmp = line[line.find('"')+1:]
+print(tmp)
+title = tmp[:tmp.find('"')]
+print(title)
+
+print(((39*5+50)*20+1021)-1986)
+
+print(349182*2+10/2-349182)
+print(2*2+10/2-2)
+print(7+7/7+7*7-7)
