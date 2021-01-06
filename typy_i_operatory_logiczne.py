@@ -56,3 +56,19 @@ print(((39*5+50)*20+1021)-1986)
 print(349182*2+10/2-349182)
 print(2*2+10/2-2)
 print(7+7/7+7*7-7)
+
+
+#LISTY
+hitList = ['BROTHERS IN ARMS','BOHEMIAN RHAPSODY','STAIRWAY TO HEAVEN','RIDERS ON THE STORM','WISH YOU WERE HERE']
+hitList.append('CHILD IN TIME')
+hitList.append('AGAIN')
+hitList.insert(3, 'HOTEL CALIFORNIA')
+hitList.insert(0, 'THE SOUND OF SILENCE')
+print(hitList.index('HOTEL CALIFORNIA'))
+hitList.remove('HOTEL CALIFORNIA')
+hitList[0] = 'Enjoy the silence'
+hitsToRead = hitList.copy()
+hitsToRead.sort()
+
+print(hitList)
+print(hitsToRead)
