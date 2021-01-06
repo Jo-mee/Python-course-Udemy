@@ -31,7 +31,34 @@ print(chanels.keys())
 print(chanels.pop("Email"))
 print(chanels)
 
+#IF
+
+MIN_LIKES = 500
+MIN_SHARES = 100
+num_likes = 1300
+num_shares = 5000
+
+if MIN_LIKES <= num_likes and MIN_SHARES <= num_shares:
+    print('obniżamy o 10%')
+else:
+    print('warunek niespełniony')
 
 
+isPizzaOrdered = False #czy klient kupił Pizzę
+isBigDrinkOrdered = False #czy klient zamówił duży napój
+isWeekend = True #czy jest weekend
+
+if not isWeekend and (isPizzaOrdered or isBigDrinkOrdered):
+    print('dostajesz kupon')
+else:
+    print('kupuj dalej')
 
 
+diskSize = 140 #oznaczająca wielkość dysku w GB
+diskSizeUsed = 123 #oznaczająca ilość zajętego miejsca na dysku w GB
+fileSize = 10 #oznaczająca wielkość pobieranego pliku w GB
+
+if diskSize > diskSizeUsed + fileSize:
+    print('File can be downloaded')
+else:
+    print('za mało miejsca')
